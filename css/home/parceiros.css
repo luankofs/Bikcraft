@@ -17,7 +17,7 @@
 
 .parceiros li {
   display: flex;
-  padding: 32px;
+  padding: 20px;
   border-left: 2px solid var(--cor-2);
 }
 
