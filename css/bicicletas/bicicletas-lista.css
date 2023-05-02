@@ -51,13 +51,3 @@
 .bicicletas-lista li span {
   padding: 0 0 0 20px;
 }
-
-@media (max-width: 800px) {
-  .bicicletas-lista {
-    padding-bottom: 60px;
-  }
-
-  .bicicletas-lista ul {
-    gap: 20px;
-  }
-}

@@ -60,9 +60,3 @@
 .seguros-item a {
   grid-column: 1/-1;
 }
-
-@media (max-width: 800px) {
-  .seguros {
-    grid-template-columns: 1fr;
-  }
-}

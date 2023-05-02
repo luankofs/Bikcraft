@@ -1,0 +1,26 @@
+/* header */
+.header-menu {
+  gap: 12px;
+}
+
+.header-menu a {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+/* tecnologia */
+
+.tecnologia-vantagens {
+  flex-direction: column;
+}
+
+/* footer */
+
+.footer {
+  grid-template-columns: 1fr;
+  gap: 60px;
+}
+
+.footer-copy {
+  margin-top: 0px;
+}

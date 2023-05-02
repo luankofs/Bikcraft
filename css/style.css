@@ -1,3 +1,4 @@
+/* global */
 @import url(./global/global.css);
 @import url(./utilidades/tipografia.css);
 @import url(utilidades/cores.css);
@@ -18,3 +19,6 @@
 
 /* Seguros */
 @import url(seguros/seguros.css);
+
+/* Termos */
+@import url(./termos/termos.css);

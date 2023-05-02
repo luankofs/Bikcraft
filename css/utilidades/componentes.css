@@ -55,3 +55,13 @@
 .link:hover {
   color: var(--cor-0);
 }
+
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo span {
+  margin-bottom: 4px;
+}
