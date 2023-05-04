@@ -138,3 +138,16 @@
   text-transform: lowercase;
   font-weight: 400;
 }
+
+/* Page bikes */
+
+.bicicletas {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bicicletas-bg:nth-child(3) {
+  background: var(--cor-11);
+}
