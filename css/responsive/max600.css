@@ -40,3 +40,29 @@
 .bicicletas a {
   place-self: start;
 }
+
+/*bicicleta*/
+
+.bicicleta-comprar {
+  grid-template-columns: 1fr;
+}
+
+.bicicleta-informacoes {
+  grid-template-columns: 1fr;
+}
+
+/* contato */
+
+.form {
+  grid-template-columns: 1fr;
+}
+
+.form .col-2 {
+  grid-column: 1;
+}
+
+/*lojas*/
+
+.lojas {
+  grid-template-columns: 1fr;
+}
