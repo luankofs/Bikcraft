@@ -13,12 +13,12 @@
   gap: 20px;
 }
 
-.bicicleta-img a {
+.bicicleta-img img {
   flex: 1;
   min-width: 200px;
 }
 
-.bicicleta-img a:first-child {
+.bicicleta-img img:first-child {
   min-width: 100%;
 }
 
