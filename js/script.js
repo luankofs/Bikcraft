@@ -70,3 +70,8 @@ function switchImg(event) {
   }
 }
 gallery.forEach(eventsGallery);
+
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

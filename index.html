@@ -7,13 +7,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft - Bicicletas Elétricas</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="stylesheet" href="./css/responsive/max800.css" media="screen and (max-width: 800px)">
   <link rel="stylesheet" href="./css/responsive/max600.css" media="screen and (max-width: 600px)">
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
 </head>
 
 <body>
@@ -33,19 +37,19 @@
   <main class="introducao-bg">
     <div class="container introducao">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="button" href="./bicicletas.html">Selecione a sua</a>
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="button fadeInDown" href="./bicicletas.html" data-anime="600">Selecione a sua</a>
       </div>
       <picture>
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
-        <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta" width="1280" height="1600">
+        <img class="fadeInRight" src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta" width="1280" height="1600" data-anime="800">
       </picture>
     </div>
   </main>
 
   <article class="bicicletas-lista">
-    <h2 class="container font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
+    <h2 class="container font-1-xxl" Dd>escolha a sua<span class="cor-p1">.</span></h2>
     <ul>
       <li>
         <a href="./bicicletas/magic.html">
@@ -122,7 +126,7 @@
   <article class="seguros-bg">
     <div class="seguros container">
       <h2 class="font-1-xxl cor-0">seguros<span class="cor-p1">.</span></h2>
-      <div class="seguros-item">
+      <div class="seguros-item" data-anime="400">
         <h3 class="font-1-xl cor-6">PRATA</h3>
         <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6">mensal</span></span>
         <ul class="font-2-m cor-0">
@@ -133,7 +137,7 @@
         </ul>
         <a class="button secundary" href="./orçamento.html">Inscreva-se</a>
       </div>
-      <div class="seguros-item">
+      <div class="seguros-item" data-anime="400">
         <h3 class="font-1-xl cor-p1">OURO</h3>
         <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
         <ul class="font-2-m cor-0">
@@ -186,6 +190,8 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/clipboard.min.js"></script>
+  <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
