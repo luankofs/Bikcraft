@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orçamento | Bikcraft - Bicicletas Elétricas</title>
-  <link rel="preload" href="./css/style.min.css" as="style">
-  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,113 +38,113 @@
   <main>
     <div class="titulo-bg">
       <div class="titulo container">
-        <span class="font-2-l-b cor-5">Cotações no seu e-mail</span>
-        <h2 class="font-1-xxl cor-0">solicite um orçamento<span class="cor-p1">.</span></h2>
+        <span class="font-2-l-b cor-5" data-anime="100">Cotações no seu e-mail</span>
+        <h2 class="font-1-xxl cor-0" data-anime="200">solicite um orçamento<span class="cor-p1">.</span></h2>
       </div>
     </div>
     <form class="orcamento container" action="./">
       <div class="orcamento-produto">
-        <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
+        <h2 class="font-1-xs cor-5 fadeInLeft" data-anime="100">Bikcraft ou Seguro?</h2>
 
         <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
-        <label for="bikcraft">Bikcraft</label>
+        <label for="bikcraft" class="fadeInLeft" data-anime="200">Bikcraft</label>
 
         <input type="radio" name="tipo" value="seguro" id="seguro">
-        <label for="seguro">Seguro</label>
+        <label for="seguro" class="fadeInRight" data-anime="250">Seguro</label>
 
         <div class="orcamento-conteudo" id="orcamento-bikcraft">
-          <h2 class="font-1-xs cor-5">Escolha a sua (BIKCRAFT)</h2>
+          <h2 class="font-1-xs cor-5 fadeInLeft" data-anime="250">Escolha a sua (BIKCRAFT)</h2>
 
           <input type="radio" name="produto" value="nimbus" id="nimbus">
-          <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
-          <div class="orcamento-detalhes">
+          <label for="nimbus" class="fadeInLeft" data-anime="300">Nimbus Stark <span>R$ 4999</span></label>
+          <div class="orcamento-detalhes fadeInLeft" data-anime="300">
             <ul>
-              <li><img src="./img/icones/eletrica.svg" alt="">Motor elétrico</li>
-              <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
-              <li><img src="./img/icones/velocidade.svg" alt="">40 km/h</li>
-              <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/eletrica.svg" alt="">Motor elétrico</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/velocidade.svg" alt="">40 km/h</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
             </ul>
-            <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus Stark">
+            <img class="fadeInLeft" data-anime="300" src="./img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus Stark">
           </div>
 
           <input type="radio" name="produto" value="magic" id="magic">
-          <label for="magic">Magic Might <span>R$5449</span></label>
-          <div class="orcamento-detalhes">
+          <label for="magic" class="fadeInLeft" data-anime="300">Magic Might <span>R$5449</span></label>
+          <div class="orcamento-detalhes fadeInLeft" data-anime="300">
             <ul>
-              <li><img src="./img/icones/eletrica.svg" alt="">Motor elétrico</li>
-              <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
-              <li><img src="./img/icones/velocidade.svg" alt="">45 km/h</li>
-              <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/eletrica.svg" alt="">Motor elétrico</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/velocidade.svg" alt="">45 km/h</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
             </ul>
-            <img src="./img/bicicletas/nebula.jpg" alt="Bicicleta Nebula Cosmic">
+            <img class="fadeInLeft" data-anime="300" src="./img/bicicletas/nebula.jpg" alt="Bicicleta Nebula Cosmic">
           </div>
 
           <input type="radio" name="produto" value="nebula" id="nebula">
-          <label for="nebula">Nebula Cosmic <span>R$5999</span></label>
-          <div class="orcamento-detalhes">
+          <label for="nebula" class="fadeInLeft" data-anime="300">Nebula Cosmic <span>R$5999</span></label>
+          <div class="orcamento-detalhes fadeInLeft" data-anime="300">
             <ul>
-              <li><img src="./img/icones/eletrica.svg" alt="">Motor elétrico</li>
-              <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
-              <li><img src="./img/icones/velocidade.svg" alt="">50 km/h</li>
-              <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/eletrica.svg" alt="">Motor elétrico</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/velocidade.svg" alt="">50 km/h</li>
+              <li class="fadeInLeft" data-anime="300"><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
             </ul>
-            <img src="./img/bicicletas/magic.jpg" alt="Bicicleta Magic Might">
+            <img class="fadeInLeft" data-anime="300" src="./img/bicicletas/magic.jpg" alt="Bicicleta Magic Might">
           </div>
         </div>
 
         <div class="orcamento-conteudo" id="orcamento-seguro">
-          <h2 class="font-1-xs cor-5">Escolha o plano </h2>
+          <h2 class="font-1-xs cor-5 fadeInLeft" data-anime="200">Escolha o plano </h2>
           <input type="radio" name="produto" value="prata" id="prata">
-          <label for="prata">Prata <span>R$ 199</span></label>
+          <label for="prata" data-anime="250">Prata <span>R$ 199</span></label>
 
           <input type="radio" name="produto" value="ouro" id="ouro">
-          <label for="ouro">Ouro<span>R$ 299</span></label>
+          <label for="ouro" data-anime="250">Ouro<span>R$ 299</span></label>
         </div>
       </div>
       <div class="orcamento-dados form">
-        <h2 class="font-1-xs cor-9 col-2">Dados pessoais</h2>
+        <h2 class="font-1-xs cor-9 col-2 fadeInLeft" data-anime="200">Dados pessoais</h2>
         <div>
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="Seu nome">
+          <label class="fadeInLeft" data-anime="200" for="nome">Nome</label>
+          <input class="fadeInLeft" data-anime="250" type="text" id="nome" name="nome" placeholder="Seu nome">
         </div>
         <div>
-          <label for="sobrenome">Sobrenome</label>
-          <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu Sobrenome">
+          <label for="sobrenome" class="fadeInRight" data-anime="250">Sobrenome</label>
+          <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu Sobrenome" class="fadeInRight" data-anime="300">
         </div>
         <div class="col-2">
-          <label for="cpf">CPF</label>
-          <input type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX">
+          <label for="cpf" class="fadeInLeft" data-anime="300">CPF</label>
+          <input type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" class="fadeInLeft" data-anime="350">
         </div>
         <div class="col-2">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Seu nome">
+          <label for="email" class="fadeInLeft" data-anime="350">Email</label>
+          <input type="email" id="email" name="email" placeholder="Seu nome" class="fadeInLeft" data-anime="400">
         </div>
-        <h2 class="font-1-xs cor-9 col-2">Entrega</h2>
+        <h2 class="font-1-xs cor-9 col-2 fadeInLeft" data-anime="400">Entrega</h2>
         <div>
-          <label for="cep">Cep</label>
-          <input type="text" id="cep" name="cep" placeholder="XXXXX-XXX">
-        </div>
-        <div>
-          <label for="numero">Número</label>
-          <input type="text" id="numero" name="numero" placeholder="XXX">
+          <label for="cep" class="fadeInLeft" data-anime="450">Cep</label>
+          <input type="text" id="cep" name="cep" placeholder="XXXXX-XXX" class="fadeInLeft" data-anime="500">
         </div>
         <div>
-          <label for="logradouro">Logradouro</label>
-          <input type="text" id="logradouro" name="logradouro" placeholder="Seu endereço">
+          <label for="numero" class="fadeInRight" data-anime="500">Número</label>
+          <input type="text" id="numero" name="numero" placeholder="XXX" class="fadeInRight" data-anime="550">
         </div>
         <div>
-          <label for="bairro">Bairro</label>
-          <input type="text" id="bairro" name="bairro">
+          <label for="logradouro" class="fadeInLeft" data-anime="550">Logradouro</label>
+          <input type="text" id="logradouro" name="logradouro" placeholder="Seu endereço" class="fadeInLeft" data-anime="600">
         </div>
         <div>
-          <label for="cidade">Cidade</label>
-          <input type="text" id="cidade" name="cidade">
+          <label for="bairro" class="fadeInRight" data-anime="600">Bairro</label>
+          <input type="text" id="bairro" name="bairro" class="fadeInRight" data-anime="650">
         </div>
         <div>
-          <label for="estado">Estado</label>
-          <input type="text" id="estado" name="estado">
+          <label for="cidade" class="fadeInLeft" data-anime="650">Cidade</label>
+          <input type="text" id="cidade" name="cidade" class="fadeInLeft" data-anime="650">
         </div>
-        <input type="submit" value="Solicitar orçamento" class="button col-2">
+        <div>
+          <label for="estado" class="fadeInRight" data-anime="700">Estado</label>
+          <input type="text" id="estado" name="estado" class="fadeInRight" data-anime="700">
+        </div>
+        <input type="submit" value="Solicitar orçamento" class="button col-2" data-anime="800">
     </form>
 
   </main>
@@ -186,6 +186,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados | Elaborado e feito por Luan Furlan</p>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

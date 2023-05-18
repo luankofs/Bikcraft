@@ -1,9 +1,7 @@
 window.SimpleAnime = class {
   constructor() {
-    this.items = document.querySelectorAll("[data-anime]");
-    this.init();
+    (this.items = document.querySelectorAll("[data-anime]")), this.init();
   }
-
   animateItems() {
     this.items.forEach((item) => {
       const delay = Number(item.getAttribute("data-anime"));
@@ -12,7 +10,9 @@ window.SimpleAnime = class {
       const animationCallback = (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            item.classList.add("anime");
+            setTimeout(() => {
+              item.classList.add("anime");
+            }, delay);
             observer.unobserve(item);
           }
         });
@@ -24,16 +24,14 @@ window.SimpleAnime = class {
       observer.observe(item);
     });
   }
-
   handleVisibility() {
-    if (document.visibilityState === "visible") {
-      this.animateItems();
-    }
+    void 0 !== document.visibilityState
+      ? "visible" === document.visibilityState && this.animateItems()
+      : this.animateItems();
   }
-
   init() {
-    this.handleVisibility = this.handleVisibility.bind(this);
-    this.handleVisibility();
-    document.addEventListener("visibilitychange", this.handleVisibility);
+    (this.handleVisibility = this.handleVisibility.bind(this)),
+      this.handleVisibility(),
+      document.addEventListener("visibilitychange", this.handleVisibility);
   }
 };
