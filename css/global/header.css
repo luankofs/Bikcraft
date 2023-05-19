@@ -2,10 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  overflow-x: hidden !important;
-}
-
 .header-bg {
   background-color: var(--cor-12);
 }
@@ -27,6 +23,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  overflow-x: hidden;
 }
 
 .header nav img {

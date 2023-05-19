@@ -4,8 +4,8 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  overflow-x: hidden !important;
+.header-menu {
+  overflow-x: hidden;
 }
 
 .header-menu a {
