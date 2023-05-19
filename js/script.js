@@ -73,9 +73,6 @@ gallery.forEach(eventsGallery);
 
 // Menu
 
-{
-}
-
 // Animação
 if (window.SimpleAnime) {
   new SimpleAnime();
