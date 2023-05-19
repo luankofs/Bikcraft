@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  overflow-x: hidden !important;
+}
+
 .header-bg {
   background-color: var(--cor-12);
 }
